@@ -57,7 +57,8 @@ return {
   },
   {
     "wakatime/vim-wakatime",
-    cmd = "Wakatime",
+    event = "InsertEnter",
   },
+
 }
 
