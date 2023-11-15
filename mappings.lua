@@ -35,7 +35,8 @@ return {
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
 
 
-    ["<leader>;"] = { "<cmd>ToggleTerm<cr>", desc="Toggle Terminal"}
+    ["<leader>;"] = { "<cmd>ToggleTerm<cr>", desc="Toggle Terminal"},
+    ["<leader>a"] = { "<cmd>AerialOpen<cr>", desc="Toggle Aerial"},
   },
   t = {
     -- setting a mapping to false will disable it

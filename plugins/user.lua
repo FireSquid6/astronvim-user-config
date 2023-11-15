@@ -59,6 +59,15 @@ return {
     "wakatime/vim-wakatime",
     event = "InsertEnter",
   },
-
+  {
+    "andweeb/presence.nvim",
+    event = "InsertEnter",
+    config = function()
+      require("presence").setup({
+        auto_update = true,
+        neovim_image_text = "Using astro nvim",
+      })
+    end
+  },
 }
 
