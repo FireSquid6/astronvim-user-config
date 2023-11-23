@@ -43,6 +43,7 @@ return {
             yaml = false,
             markdown = false,
             help = false,
+            norg = false,
             gitcommit = false,
             gitrebase = false,
             hgcommit = false,
@@ -86,9 +87,11 @@ return {
               workspaces = {
                 notes = "~/notes",
               },
-              default_workspace = "notes",
+              defrault_workspace = "notes",
             },
           },
+          ["core.journal"] = {},
+          ["core.summary"] = {},
         },
       }
     end,

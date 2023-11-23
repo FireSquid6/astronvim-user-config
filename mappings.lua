@@ -35,9 +35,21 @@ return {
 
 
     ["<leader>j"] = {name="󰠮 Neorg"},
-    ["<leader>ji"] = {"<cmd>Neorg index<cr>", desc="Index file"},
-    ["<leader>jg"] = {"<cmd>o ~/notes/gtd/index.norg", desc="GTD file"},
-    ["<leader>jw"] = {"<cmd>Neorg workspace main<cr>", desc="Main workspace"},
+    ["<leader>jm"] = {"<cmd>Neorg<cr>", desc="Neorg menu"},
+    ["<leader>jh"] = {"<cmd>Neorg index<cr>", desc="Home file"},
+    ["<leader>jg"] = {"<cmd>e ~/notes/gtd/index.norg<cr>", desc="GTD Home file"},
+    ["<leader>ji"] = {"<cmd>e ~/notes/gtd/in.norg<cr>", desc="GTD In file"},
+    ["<leader>jn"] = {"<cmd>e ~/notes/gtd/next.norg<cr>", desc="GTD Next file"},
+    ["<leader>jd"] = {"<cmd>Neorg inject-metadata<cr>", desc="Generate metdata"},
+
+    ["<leader>jj"] = {name="Journal"},
+    ["<leader>jju"] = {"<cmd>Neorg journal toc update<cr>", desc="Update journal table of contents"},
+    ["<leader>jjo"] = {"<cmd>Neorg journal toc open<cr>", desc="Open journal table of contents"},
+    ["<leader>jjt"] = {"<cmd>Neorg journal today<cr>", desc="Journal today"},
+    ["<leader>jjy"] = {"<cmd>Neorg journal yesterday<cr>", desc="Journal yesterday"},
+    ["<leader>jjr"] = {"<cmd>Neorg journal tomorrow<cr>", desc="Journal tomorrow"},
+
+    ["<leader>jb"] = {"<cmd>Neorg return<cr>", desc="Neorg return"},
 
     ["<leader>;"] = { "<cmd>ToggleTerm<cr>", desc="Toggle Terminal"},
     ["<leader>a"] = { "<cmd>AerialOpen<cr>", desc="Toggle Aerial"},
