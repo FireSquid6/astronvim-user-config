@@ -33,7 +33,7 @@ return {
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
 
-
+    -- NEORG BINDINGS
     ["<leader>j"] = {name="󰠮 Neorg"},
     ["<leader>jm"] = {"<cmd>Neorg<cr>", desc="Neorg menu"},
     ["<leader>jh"] = {"<cmd>Neorg index<cr>", desc="Home file"},
@@ -41,6 +41,7 @@ return {
     ["<leader>ji"] = {"<cmd>e ~/notes/gtd/in.norg<cr>", desc="GTD In file"},
     ["<leader>jn"] = {"<cmd>e ~/notes/gtd/next.norg<cr>", desc="GTD Next file"},
     ["<leader>jd"] = {"<cmd>Neorg inject-metadata<cr>", desc="Generate metdata"},
+    ["<leader>jk"] = {"<cmd>e ~/notes/notebook/index.norg<cr>", desc="Notebook"},
 
     ["<leader>jj"] = {name="Journal"},
     ["<leader>jju"] = {"<cmd>Neorg journal toc update<cr>", desc="Update journal table of contents"},
@@ -51,6 +52,9 @@ return {
 
     ["<leader>jb"] = {"<cmd>Neorg return<cr>", desc="Neorg return"},
 
+
+
+    ["<leader>m"] = { "<cmd>lua require(\"nabla\").popup()<cr>", desc="Nabla Popup"},
     ["<leader>;"] = { "<cmd>ToggleTerm<cr>", desc="Toggle Terminal"},
     ["<leader>a"] = { "<cmd>AerialOpen<cr>", desc="Toggle Aerial"},
   },

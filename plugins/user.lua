@@ -96,5 +96,13 @@ return {
       }
     end,
   },
+  {
+    "edluffy/hologram.nvim",
+    lazy = false,
+  },
+  {
+    "jbyuki/nabla.nvim",
+    lazy = false,
+  }
 }
 
