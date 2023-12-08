@@ -103,6 +103,12 @@ return {
   {
     "jbyuki/nabla.nvim",
     lazy = false,
-  }
+  },
+  {
+    "tpope/vim-surround",
+    event = "InsertEnter",
+  },
 }
+
+
 
