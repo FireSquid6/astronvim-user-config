@@ -108,6 +108,14 @@ return {
     "tpope/vim-surround",
     event = "InsertEnter",
   },
+  {
+    "lambdalisue/suda.vim",
+    lazy = false,
+  },
+  {
+    'gptlang/CopilotChat.nvim',
+    event = "InsertEnter",
+  }
 }
 
 
