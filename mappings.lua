@@ -22,10 +22,7 @@ return {
     -- mappings seen under group name "Buffer"
     ["<leader>bD"] = {
       function()
-        require("astronvim.utils.status").heirline.buffer_picker(
-          function(bufnr) require("astronvim.utils.buffer").close(bufnr) end
-        )
-      end,
+        require("astronvim.utils.status").heirline.buffer_picker( function(bufnr) require("astronvim.utils.buffer").close(bufnr) end) end,
       desc = "Pick to close",
     },
     -- tables with the `name` key will be registered with which-key if it's installed
@@ -51,7 +48,6 @@ return {
     ["<leader>jjr"] = {"<cmd>Neorg journal tomorrow<cr>", desc="Journal tomorrow"},
 
     ["<leader>jb"] = {"<cmd>Neorg return<cr>", desc="Neorg return"},
-
 
 
     ["<leader>m"] = { "<cmd>lua require(\"nabla\").popup()<cr>", desc="Nabla Popup"},
