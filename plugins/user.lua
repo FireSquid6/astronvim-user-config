@@ -94,6 +94,7 @@ return {
           },
           ["core.journal"] = {},
           ["core.summary"] = {},
+          ["core.export.markdown"] = {},
         },
       }
     end,
