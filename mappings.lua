@@ -51,12 +51,27 @@ return {
 
 
     ["<leader>m"] = { "<cmd>lua require(\"nabla\").popup()<cr>", desc="Nabla Popup"},
-    ["<leader>;"] = { "<cmd>ToggleTerm<cr>", desc="Toggle Terminal"},
     ["<leader>a"] = { "<cmd>AerialOpen<cr>", desc="Toggle Aerial"},
+
+
+    ["<leader>th"] = { name="Bottom" },
+    ["<leader>th1"] = { "<cmd>1ToggleTerm direction=horizontal size=20<cr>", desc="ToggleTerm Bottom 1" },
+    ["<leader>th2"] = { "<cmd>2ToggleTerm direction=horizontal size=20<cr>", desc="ToggleTerm Bottom 2" },
+    ["<leader>th3"] = { "<cmd>3ToggleTerm direction=horizontal size=20<cr>", desc="ToggleTerm Bottom 3" },
+    ["<leader>tf"] = { "<cmd>4ToggleTerm direction=float size=20<cr>", desc="ToggleTerm Floating" },
+    ["<leader>`"] = { "<cmd>TermSelect<cr>", desc="Select Terminal" },
+    ["<leader>;"] = { "<cmd>ToggleTermToggleAll<cr>", desc="Toggle All Terminals" },
+
+
+    ["<C-h>"] = { "<C-w>h", desc = "Window left"},
+    ["<C-j>"] = { "<C-w>j", desc = "Window down"},
+    ["<C-k>"] = { "<C-w>k", desc = "Window up"},
+    ["<C-l>"] = { "<C-w>l", desc = "Window right"},
   },
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
     ["<esc>"] = { "<C-\\><C-n>", desc = "Exit Terminal" },
+
   },
 }
