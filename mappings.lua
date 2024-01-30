@@ -31,23 +31,23 @@ return {
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
 
     -- NEORG BINDINGS
-    ["<leader>j"] = {name="󰠮 Neorg"},
-    ["<leader>jm"] = {"<cmd>Neorg<cr>", desc="Neorg menu"},
-    ["<leader>jh"] = {"<cmd>Neorg index<cr>", desc="Home file"},
-    ["<leader>jg"] = {"<cmd>e ~/Dropbox/notes/gtd/index.norg<cr>", desc="GTD Home file"},
-    ["<leader>ji"] = {"<cmd>e ~/Dropbox/notes/gtd/in.norg<cr>", desc="GTD In file"},
-    ["<leader>jn"] = {"<cmd>e ~/Dropbox/notes/gtd/next.norg<cr>", desc="GTD Next file"},
-    ["<leader>jd"] = {"<cmd>Neorg inject-metadata<cr>", desc="Generate metdata"},
-    ["<leader>jk"] = {"<cmd>e ~/Dropbox/notes/notebook/index.norg<cr>", desc="Notebook"},
-
-    ["<leader>jj"] = {name="Journal"},
-    ["<leader>jju"] = {"<cmd>Neorg journal toc update<cr>", desc="Update journal table of contents"},
-    ["<leader>jjo"] = {"<cmd>Neorg journal toc open<cr>", desc="Open journal table of contents"},
-    ["<leader>jjt"] = {"<cmd>Neorg journal today<cr>", desc="Journal today"},
-    ["<leader>jjy"] = {"<cmd>Neorg journal yesterday<cr>", desc="Journal yesterday"},
-    ["<leader>jjr"] = {"<cmd>Neorg journal tomorrow<cr>", desc="Journal tomorrow"},
-
-    ["<leader>jb"] = {"<cmd>Neorg return<cr>", desc="Neorg return"},
+    -- ["<leader>j"] = {name="󰠮 Neorg"},
+    -- ["<leader>jm"] = {"<cmd>Neorg<cr>", desc="Neorg menu"},
+    -- ["<leader>jh"] = {"<cmd>Neorg index<cr>", desc="Home file"},
+    -- ["<leader>jg"] = {"<cmd>e ~/Dropbox/notes/gtd/index.norg<cr>", desc="GTD Home file"},
+    -- ["<leader>ji"] = {"<cmd>e ~/Dropbox/notes/gtd/in.norg<cr>", desc="GTD In file"},
+    -- ["<leader>jn"] = {"<cmd>e ~/Dropbox/notes/gtd/next.norg<cr>", desc="GTD Next file"},
+    -- ["<leader>jd"] = {"<cmd>Neorg inject-metadata<cr>", desc="Generate metdata"},
+    -- ["<leader>jk"] = {"<cmd>e ~/Dropbox/notes/notebook/index.norg<cr>", desc="Notebook"},
+    --
+    -- ["<leader>jj"] = {name="Journal"},
+    -- ["<leader>jju"] = {"<cmd>Neorg journal toc update<cr>", desc="Update journal table of contents"},
+    -- ["<leader>jjo"] = {"<cmd>Neorg journal toc open<cr>", desc="Open journal table of contents"},
+    -- ["<leader>jjt"] = {"<cmd>Neorg journal today<cr>", desc="Journal today"},
+    -- ["<leader>jjy"] = {"<cmd>Neorg journal yesterday<cr>", desc="Journal yesterday"},
+    -- ["<leader>jjr"] = {"<cmd>Neorg journal tomorrow<cr>", desc="Journal tomorrow"},
+    --
+    -- ["<leader>jb"] = {"<cmd>Neorg return<cr>", desc="Neorg return"},
 
 
     ["<leader>m"] = { "<cmd>lua require(\"nabla\").popup()<cr>", desc="Nabla Popup"},
