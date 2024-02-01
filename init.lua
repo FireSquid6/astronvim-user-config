@@ -48,11 +48,7 @@ return {
       --   return true
       -- end
     },
-    config = {
-      clangd = {
-        capabilities = { offsetEncoding = "utf-8" },
-      }
-    }
+    config = {},
   },
 
   -- Configure require("lazy").setup() options
@@ -73,5 +69,8 @@ return {
     if vim.g.neovide then
       vim.o.guifont = "FiraCode Nerd Font:h5"
     end
+
+    local lspconfig = require('lspconfig')
+    lspconfig.clangd.setup {}
   end,
 }
