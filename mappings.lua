@@ -64,10 +64,10 @@ return {
     ["<leader>;"] = { "<cmd>ToggleTermToggleAll<cr>", desc="Toggle All Terminals" },
 
 
-    ["<C-h>"] = { "<C-w>h", desc = "Window left"},
-    ["<C-j>"] = { "<C-w>j", desc = "Window down"},
-    ["<C-k>"] = { "<C-w>k", desc = "Window up"},
-    ["<C-l>"] = { "<C-w>l", desc = "Window right"},
+    -- ["<C-h>"] = { "<C-w>h", desc = "Window left"},
+    -- ["<C-j>"] = { "<C-w>j", desc = "Window down"},
+    -- ["<C-k>"] = { "<C-w>k", desc = "Window up"},
+    -- ["<C-l>"] = { "<C-w>l", desc = "Window right"},
   },
   t = {
     -- setting a mapping to false will disable it
