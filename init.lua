@@ -64,6 +64,11 @@ return {
       vim.o.guifont = "FiraCode Nerd Font:h5"
     end
 
+    local pipepath = vim.fn.stdpath("cache") .. "/server.pipe"
+    if not vim.loop.fs_stat(pipepath) then
+      vim.fn.serverstart(pipepath)
+    end
+
     local lspconfig = require('lspconfig')
     local configs = require("lspconfig.configs")
     lspconfig.ccls.setup {
@@ -73,6 +78,7 @@ return {
         };
       }
     }
+    lspconfig.gdscript.setup{}
     lspconfig.rust_analyzer.setup{
       settings = {
         ['rust-analyzer'] = {
