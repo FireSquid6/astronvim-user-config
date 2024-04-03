@@ -169,7 +169,23 @@ return {
       { "<c-l>", "<cmd><C-U>TmuxNavigateRight<cr>" },
       { "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
     },
-  }
+  },
+  -- {
+  --   "yioneko/nvim-yati",
+  --   lazy = false,
+  --   config = function ()
+  --     require("nvim-treesitter.configs").setup {
+  --       yati = {
+  --         enable = true,
+  --         default_lazy = true
+  --       },
+  --       indent = {
+  --         enable = false,
+  --       }
+  --     }
+  --
+  --   end,
+  -- }
 }
 
 
